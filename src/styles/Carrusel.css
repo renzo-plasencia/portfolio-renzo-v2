@@ -1,0 +1,16 @@
+.card-hover {
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    background: #0f5c2e !important;
+}
+
+.text-hover{
+    transition: transform 0.3s ease;
+}
+
+.text-hover:hover{
+    transform: translateY(-12px);
+}
